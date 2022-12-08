@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC_Projects", "AoC_Projects\AoC_Projects.csproj", "{055A2552-90B8-4494-A77F-FE37FCD5EBD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC_Console", "AoC_Projects\AoC_Console.csproj", "{055A2552-90B8-4494-A77F-FE37FCD5EBD8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day1", "AOC_Day1\AOC_Day1.csproj", "{976C9DD9-663F-4FFF-BD3A-69C573692FF4}"
 EndProject
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day2", "AOC_Day2\AOC_Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day3", "AOC_Day3\AOC_Day3.csproj", "{714F3FF3-D436-4C75-BEFA-61CD10343E14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC_Day4", "AoC_Day4\AoC_Day4.csproj", "{A5BA0E42-425C-4D80-907E-EF6BF32C6F48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day4", "AoC_Day4\AOC_Day4.csproj", "{A5BA0E42-425C-4D80-907E-EF6BF32C6F48}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day5", "AOC_Day5\AOC_Day5.csproj", "{E610DDB3-FFA9-4C5A-877E-A57C8C4A356F}"
 EndProject
@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day6", "AOC_Day6\AOC_Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC_Day7", "AOC_Day7\AOC_Day7.csproj", "{2CFAF844-A0FC-4EA0-8051-9B7010704750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC_Day8", "AoC_Day8\AoC_Day8.csproj", "{0EE16593-0C03-4206-9C75-1ECAD26493CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC_Day8", "AoC_Day8\AOC_Day8.csproj", "{0EE16593-0C03-4206-9C75-1ECAD26493CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
