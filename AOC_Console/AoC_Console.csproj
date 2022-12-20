@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AOC_Day11\AOC_Day11.csproj" />
     <ProjectReference Include="..\AOC_Day1\AOC_Day1.csproj" />
     <ProjectReference Include="..\AOC_Day2\AOC_Day2.csproj" />
     <ProjectReference Include="..\AOC_Day3\AOC_Day3.csproj" />
@@ -16,6 +17,7 @@
     <ProjectReference Include="..\AOC_Day6\AOC_Day6.csproj" />
     <ProjectReference Include="..\AOC_Day7\AOC_Day7.csproj" />
     <ProjectReference Include="..\AoC_Day8\AOC_Day8.csproj" />
+    <ProjectReference Include="..\AOC_Day9\AOC_Day9.csproj" />
   </ItemGroup>
 
 </Project>

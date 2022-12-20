@@ -2,6 +2,8 @@
 
 using AOC_Day1;
 
+using AOC_Day11;
+
 using AOC_Day2;
 
 using AOC_Day3;
@@ -61,6 +63,11 @@ namespace AoC_Projects
 			AoC_D8.ReadInputAndCalculate();
 			Console.WriteLine("Solution Day_8_P1:" + AoC_D8.VisibleTrees);
 			Console.WriteLine("Solution Day_8_P2:" + AoC_D8.HighestScenicScore);
+			Console.WriteLine();
+
+			AoC_D11.ReadInputAndCalculate();
+			Console.WriteLine("Solution Day_11_P1:" + AoC_D11.MonkeyBusinessPt1);
+			Console.WriteLine("Solution Day_11_P2:" + AoC_D11.MonkeyBusinessPt2);
 			Console.ReadKey();
 		}
 	}
