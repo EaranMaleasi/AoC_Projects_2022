@@ -9,14 +9,13 @@ namespace AOC_Day11
 
 		public static void ReadInputAndCalculate()
 		{
-
 			List<Monkey> monkeysPT1 = ReadInput();
 			List<Monkey> monkeysPT2 = ReadInput();
 			for (int i = 0; i < 20; i++)
 			{
 				foreach (var monkey in monkeysPT1)
 				{
-					List<ThrowResult> results = monkey.InspectAllItemsInQueueueueueuueueueue(true);
+					List<ThrowResult> results = monkey.InspectAllItemsInQueueueueueueueueueue(true);
 					foreach (var result in results)
 					{
 						monkeysPT1[result.DestinationMonkey].Items.Enqueue(result.Item);
@@ -31,7 +30,7 @@ namespace AOC_Day11
 			{
 				foreach (var monkey in monkeysPT2)
 				{
-					List<ThrowResult> results = monkey.InspectAllItemsInQueueueueueuueueueue(false);
+					List<ThrowResult> results = monkey.InspectAllItemsInQueueueueueueueueueue(false);
 					foreach (var result in results)
 					{
 						monkeysPT2[result.DestinationMonkey].Items.Enqueue(result.Item);
@@ -120,7 +119,7 @@ namespace AOC_Day11
 				return new ThrowResult { DestinationMonkey = ThrowLocationFalse, Item = current };
 		}
 
-		public List<ThrowResult> InspectAllItemsInQueueueueueuueueueue(bool decreaseWorry)
+		public List<ThrowResult> InspectAllItemsInQueueueueueueueueueue(bool decreaseWorry)
 		{
 			List<ThrowResult> result = new List<ThrowResult>();
 			while (Items.Count > 0)
